@@ -71,19 +71,19 @@ imageAnimation {
 }
 
 .about {
-    background-image: url("../images/castle-rock-1.jpg");
+    background-image: url("../images/castle-rock.jpg");
 }
 
 .archive {
-    background-image: url("../images/reserve/reno-from-arrowcreek_explore.jpg");
+    background-image: url("../images/reno-from-arrowcreek.jpg");
 }
 
 .budget {
-    background-image: url("../images/reserve/windy-hill_engage.jpg");
+    background-image: url("../images/windy-hill.jpg");
 }
 
 .calendar {
-    background-image: url("../images/reserve/castle-rock.jpg");
+    background-image: url("../images/south-reno.jpg");
 }
 
 .contact {
@@ -95,9 +95,9 @@ imageAnimation {
 }
 
 .people {
-    background-image: url("../images/reserve/truckee-meadows.jpg");
+    background-image: url("../images/truckee-meadows.jpg");
 }
 
 .index {
-    background-image: url("../images/castle-rock-hoa-imagine.jpg");
+    background-image: url("../images/castle-rock.jpg");
 }
