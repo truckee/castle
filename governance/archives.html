@@ -12,6 +12,8 @@
         <title>Governance - Castle Rock HOA</title>
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/hoa.css">
+        <script src="../assets/js/jquery-3.6.1.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
     </head>
     <body class="bg-image archive">
         <div class="container">
@@ -119,12 +121,10 @@
                 </div>
             </div>
         </div>
-        <script src="../assets/js/jquery-3.6.1.min.js"></script>
-        <script src="../assets/js/bootstrap.bundle.min.js"></script>
         <script>
             $('td').on('click', function (e) {
                 var filename = $(e.currentTarget).text();
-                var url = document.location.origin + "../governance/agendas/" + filename;
+                var url = document.location.origin + "/governance/agendas/" + filename;
                 fetch(url, {
                     mode: 'no-cors'
                 }).then((transfer) => {

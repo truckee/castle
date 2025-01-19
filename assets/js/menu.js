@@ -1,0 +1,1 @@
+$('#nav-placeholder').load('../templates/navbar.html');
