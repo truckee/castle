@@ -4,6 +4,10 @@
     background-size: cover;    
 }
 
+.small-screen {
+    background-color: lightblue;
+}
+
 .about {
     background-image: url("../images/castle-rock.jpg");
 }
