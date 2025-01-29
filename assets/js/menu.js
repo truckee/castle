@@ -3,7 +3,7 @@ $('#nav-placeholder').load('../templates/navbar.html');
 function updateBodyClass() {
 document.addEventListener('DOMContentLoaded', function() {
     const width = window.innerWidth;
-    if (width < 480) {
+    if (width < 1200) {
      document.body.className = 'small-screen';
     }
   });
