@@ -1,15 +1,12 @@
 .bg-image {
     background-color: transparent;
-    background-repeat: no-repeat;
-    background-size: cover;    
-}
-
-.small-screen {
-    background-color: lightblue;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .about {
-    background-image: url("../images/castle-rock.jpg");
+    background-image: url("../images/balloons.jpg");
 }
 
 .archive {
@@ -25,7 +22,7 @@
 }
 
 .contact {
-    background-image: url("../images/reno-from-arrowcreek.jpg");
+    background-image: url("../images/truckee-river.jpg");
 }
 
 .docs {
@@ -37,6 +34,5 @@
 }
 
 .index {
-    /* background-image: url("../images/castle-rock-blur.jpg"); */
     background-image: url("../images/castle-rock.jpg");
 }
