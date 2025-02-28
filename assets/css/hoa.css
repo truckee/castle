@@ -12,31 +12,31 @@
 }
 
 .about {
-    background-image: url("../images/balloons.jpg");
+    background-image: url("./assets/images./balloons.jpg");
 }
 
 .archive {
-    background-image: url("../images/reno-from-arrowcreek.jpg");
+    background-image: url("./assets/images./reno-from-arrowcreek.jpg");
 }
 
 .budget {
-    background-image: url("../images/windy-hill.jpg");
+    background-image: url("./assets/images./windy-hill.jpg");
 }
 
 .calendar {
-    background-image: url("../images/lake-tahoe-winter.jpg");
+    background-image: url("./assets/images./lake-tahoe-winter.jpg");
 }
 
 .contact {
-    background-image: url("../images/truckee-river.jpg");
+    background-image: url("./assets/images./truckee-river.jpg");
 }
 
 .docs {
-    background-image: url("../images/steamboat-springs.jpg");
+    background-image: url("./assets/images./steamboat-springs.jpg");
 }
 
 .people {
-    background-image: url("../images/truckee-meadows.jpg");
+    background-image: url("./assets/images./truckee-meadows.jpg");
 }
  
 .index {
