@@ -10,7 +10,6 @@
 
         gtag('config', 'G-6PS5NHPVCX');
         </script>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Castle Rock HOA - Archives</title>
@@ -28,37 +27,7 @@
         background-size: cover; 
     ">
         <div class="container">
-            <nav class="navbar navbar-expand-lg m-2 rounded-4 justify-content-center" style="background-color: #D6F4E5;">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                            <li class="nav-item">
-                                <a class="nav-link active" style="color:#2922EB;" aria-current="page" href="../index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle-split" style="color:#2922EB;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Governance
-                                </a>
-                                <ul class="dropdown-menu" style="background-color: #D6F4E5;">
-                                    <li><a class="dropdown-item" href="../governance/people.html">People</a></li>
-                                    <li><a class="dropdown-item" href="../governance/calendar.html">Calendar</a></li>
-                                    <li><a class="dropdown-item" href="../governance/documents.html">Documents</a></li>
-                                    <li><a class="dropdown-item" href="./governance/finances.html">Finances</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color:#2922EB;" href="../contact/contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" style="color:#2922EB;" href="../about_us/about.html">About us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+        <div id="nav-placeholder"></div>
             <div class="row mt-5">
                 <div class="col-2"></div>
                 <div class="col-8 bg-light opacity-75  rounded-3">
@@ -132,6 +101,7 @@
                 </div>
             </div>
         </div>
+        <script src="../assets/js/menu.js"></script>
         <script>
             $('td').on('click', function (e) {
                 var filename = $(e.currentTarget).text();
