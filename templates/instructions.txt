@@ -1,5 +1,10 @@
-When adding a page to the site:
+    When adding a page to the site:
     Use the /templates/page_template.html for a starter
     Entries required on lines 6 (title), 13 (images), 19 (brief desc), 20 (contents)
     Try to keep the page at the same path level for assets; otherwise adjust hrefs
+
+Page management:
+    Each page is divided into two pieces - a constant set of code used for every page and a 
+    unique set of code for each individual page. This makes it easier to work with each
+    unique page.
     
