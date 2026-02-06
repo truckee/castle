@@ -28,7 +28,7 @@ body {
     z-index: -1; /* Place it behind the content */
 
     /* Set the background image */
-    background-image: url('/assets/images/balloons.jpg'); /* Replace 'background.jpg' with your image path */
+    background-image: url('../../assets/images/balloons.jpg'); /* Replace 'background.jpg' with your image path */
     background-size: cover; /* Ensures the image covers the entire container area */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat;
