@@ -41,13 +41,12 @@ body {
     transform: scale(1.05); 
 }
 
-figcaption {
-    color: #000000; /* Pure black */
-}
-
 .image-wrapper {
+    color: #000000;
     display: flex;
-    align-items: right; /* Vertically centers the items */
+    float: right;
+    margin-left: 15px;
+    /* align-items: right; */ /*Vertically centers the items */
     gap: 10px; /* Adds space between caption and image */
     /* width: fit-content;  Optional: shrink container to content size */
     z-index: 5;
