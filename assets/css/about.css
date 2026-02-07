@@ -47,7 +47,7 @@ figcaption {
 
 .image-wrapper {
     display: flex;
-    align-items: center; /* Vertically centers the items */
+    align-items: right; /* Vertically centers the items */
     gap: 10px; /* Adds space between caption and image */
     /* width: fit-content;  Optional: shrink container to content size */
     z-index: 5;
